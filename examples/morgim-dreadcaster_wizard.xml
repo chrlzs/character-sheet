@@ -1,0 +1,17 @@
+<!-- morgrim-dreadcaster_wizard.xml -->
+
+<characterSheet>
+  <characterName>Morgrim Dreadcaster</characterName>
+  <characterClass>Warlock</characterClass>
+  <characterRace>Tiefling</characterRace>
+  
+  <stats>
+    <strength>15</strength>
+    <dexterity>14</dexterity>
+    <constitution>13</constitution>
+    <intelligence>13</intelligence>
+    <wisdom>10</wisdom>
+    <charisma>10</charisma>
+  </stats>
+
+</characterSheet>
