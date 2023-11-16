@@ -1,0 +1,35 @@
+<!-- character_sheet.xsd -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Define the root element for the character sheet -->
+  <xs:element name="characterSheet">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- Basic character information -->
+        <xs:element name="characterName" type="xs:string"/>
+        <xs:element name="characterClass" type="xs:string"/>
+        <xs:element name="characterRace" type="xs:string"/>
+
+        <!-- Character stats -->
+        <xs:element name="stats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="strength" type="xs:integer"/>
+              <xs:element name="dexterity" type="xs:integer"/>
+              <xs:element name="constitution" type="xs:integer"/>
+              <xs:element name="intelligence" type="xs:integer"/>
+              <xs:element name="wisdom" type="xs:integer"/>
+              <xs:element name="charisma" type="xs:integer"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Add more elements as needed -->
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
