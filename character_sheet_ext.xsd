@@ -1,0 +1,73 @@
+<!-- character_sheet.xsd -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="characterSheet">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- Basic character information -->
+        <xs:element name="characterName" type="xs:string"/>
+        <xs:element name="characterClass" type="xs:string"/>
+        <xs:element name="characterRace" type="xs:string"/>
+
+        <!-- Character stats -->
+        <xs:element name="stats">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="strength" type="xs:integer"/>
+              <xs:element name="dexterity" type="xs:integer"/>
+              <xs:element name="constitution" type="xs:integer"/>
+              <xs:element name="intelligence" type="xs:integer"/>
+              <xs:element name="wisdom" type="xs:integer"/>
+              <xs:element name="charisma" type="xs:integer"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- General skills -->
+        <xs:element name="skills">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="skill" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="value" type="xs:integer"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Equipment -->
+        <xs:element name="equipment">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="item" maxOccurs="unbounded" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- Custom properties (suitable for other RPG systems) -->
+        <xs:element name="customProperties">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="property" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="name" type="xs:string"/>
+                    <xs:element name="value" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
