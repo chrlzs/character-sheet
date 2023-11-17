@@ -1,0 +1,45 @@
+<!-- Aragorn-ranger.xml -->
+
+<characterSheet>
+  <characterName>Aragorn</characterName>
+  <characterClass>Ranger</characterClass>
+  <characterRace>Human</characterRace>
+  
+  <stats>
+    <strength>18</strength>
+    <dexterity>16</dexterity>
+    <constitution>14</constitution>
+    <intelligence>12</intelligence>
+    <wisdom>16</wisdom>
+    <charisma>14</charisma>
+  </stats>
+
+  <!-- D&D 5e specific attributes -->
+  <level>5</level>
+  <experiencePoints>15000</experiencePoints>
+  <background>Outlander</background>
+  <alignment>Neutral Good</alignment>
+  
+  <!-- Class-specific details -->
+  <classDetails>
+    <hitPoints>45</hitPoints>
+    <hitDice>1d10</hitDice>
+    <!-- Add other class-specific details as needed -->
+  </classDetails>
+
+  <!-- Race-specific details -->
+  <raceDetails>
+    <speed>30 feet</speed>
+    <!-- Add other race-specific details as needed -->
+  </raceDetails>
+
+  <!-- Features & Traits -->
+  <featuresTraits>
+    <featureTrait>
+      <name>Favored Enemy</name>
+      <description>You have advantage on Wisdom (Survival) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.</description>
+    </featureTrait>
+    <!-- Add other features and traits as needed -->
+  </featuresTraits>
+
+</characterSheet>
