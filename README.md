@@ -1,5 +1,4 @@
 # Character Sheet Repository
-
 ## Introduction
 
 Welcome to the Character Sheet Repository! This repository aims to standardize the format for storing D&D and other roleplaying system character sheets in XML. Whether you're a player looking to manage your character sheets or a developer working on a related project, this repository is here to help.
