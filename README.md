@@ -1,4 +1,12 @@
 # Character Sheet Repository
+# Character Sheet Repository
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/chrlzs/character-sheet.svg?branch=main)](https://github.com//chrlzs/character-sheet)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+...
+
+
 ## Introduction
 
 Welcome to the Character Sheet Repository! This repository aims to standardize the format for storing D&D and other roleplaying system character sheets in XML. Whether you're a player looking to manage your character sheets or a developer working on a related project, this repository is here to help.
